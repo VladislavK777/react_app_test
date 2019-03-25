@@ -7,3 +7,8 @@ node_js:
 branches:
   only:
     - master
+deploy:
+  provider: heroku
+  app: "valdislav-react-app-test"
+  api_key:
+    secure: "f48f765f-7a12-4214-9a5d-ac23d8c01b58"
