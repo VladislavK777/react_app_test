@@ -138,11 +138,11 @@ class SearchBar extends React.Component {
 }
 
 class App extends Component {
-  constructor(props) { 
+  constructor(props) { 	
     super(props);
     this.state = {
-      station: window.sessionStorage.getItem("stationSearch").split(","),
-	  cargo: window.sessionStorage.getItem("cargoSearch").split(",")
+      station: `522502 Старотитаровка (СКВ),523416 Ост. Пункт  144 км (ОП.) (СКВ),745900 Спитамен (перев.) (ТДЖ)`.split(","),
+	  cargo: `000000 Не определён,000001 Класс №1,000002 Класс №2,000003 Класс №3,010002 Зерновые и зернобобо`.split(",")
     };
   }
   render() {
