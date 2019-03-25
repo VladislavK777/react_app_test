@@ -9,13 +9,7 @@ class SearchBar extends React.Component {
       visible: false,
       filteredItems: [],
       selectedItem: null,
-      filterText: "",
-	  value1: '',
-      value2: '',
-      value3: '',
-      value4: '',
-      value5: '',
-      isClick: false
+      filterText: ""
     };
   }
 
